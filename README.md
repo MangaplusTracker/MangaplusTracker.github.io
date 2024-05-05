@@ -5,7 +5,7 @@ So, I noticed there wasn't any solid data for mangaplus view counts when i was l
 Started by trying to scrape data from the platform's official rankings, but it was all over the place and not updated regularly. So, I am tracking it myself more accurately.
 
 ### How It Works
-Right now, I'm scraping data from the daily updates page (https://mangaplus.shueisha.co.jp/updates) everyday at 11:59pm jst using Selenium, grabbing info on the top 50ish manga series that pop up so if some data looks missing its cause it did not appear on the updates page. Saving the data to a sql db and using plotly to visualize the chart.
+Right now, I'm scraping data from the daily updates page (https://mangaplus.shueisha.co.jp/updates) everyday at 11:59pm jst using Selenium, grabbing info on the top 50ish manga series that pop up so if some data looks missing its cause it did not appear on the updates page. Saving the data to a db and using plotly to visualize the chart.
 
 ### How to Use
 1. Visit the website and order by magazines, click and double click on series to view them by themselves or compare them with others
